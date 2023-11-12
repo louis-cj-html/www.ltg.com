@@ -57,28 +57,34 @@ body{
 }
 #front{
     transform: translateZ(125px);
+    background-color: yellow;
 }
 #back{
     transform: translateZ(-125px);
+    background-color: white;
 }
 #left{
     right:  125px;
     transform: rotateY(-90deg);
+     background-color: orange;
 }
 #right{
     left:  125px;
     transform: rotateY(90deg);
+     background-color: red;
 }
 #top{
     bottom:  125px;
     transform: rotateX(90deg);
+    background-color: green;
 }
 #bottom{
     top:  125px;
     transform: rotateX(-90deg);
+    background-color: blue;
 }
 input{
-    height: 50px;
-    width: 100px;
+    height: 60px;
+    width: 200px;
     background: pink;
 }
